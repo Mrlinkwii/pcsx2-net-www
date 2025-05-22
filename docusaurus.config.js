@@ -123,7 +123,7 @@ const config = {
           editUrl: "https://github.com/PCSX2/pcsx2-net-www/tree/main/",
           feedOptions: {
             type: "all",
-            copyright: `Copyright © ${new Date().getFullYear()} PCSX2.`,
+            copyright: `Copyright © ${new Date().getFullYear()} PCSX2`,
             limit: 3,
           },
         },
@@ -137,13 +137,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // announcementBar: {
-      //   id: "announcementBar-1", // Increment on change (2.0 was 0, next announcement should be 1)
-      //   content: `<a class="no-underline font-medium" href="/blog/2024/pcsx2-2-release/">PCSX2 2.0 is finally here, check out our new blog post!</a>`,
-      //   backgroundColor: "#4765c8",
-      //   textColor: "#fafbfc",
-      //   isCloseable: true,
-      // },
+      announcementBar: {
+        id: "announcementBar-1", // Increment on change (2.0 was 0, next announcement should be 1)
+        content: `<a class="no-underline font-medium" href="https://eci.ec.europa.eu/045/public/">If you are an EU citizen, please consider signing the Stop Killing Games citizens' initiative!</a>`,
+        backgroundColor: "#4765c8",
+        textColor: "#fafbfc",
+        isCloseable: true,
+      },
       algolia: {
         // The application ID provided by Algolia
         appId: "TR9JNR7TSP",
@@ -278,7 +278,7 @@ const config = {
               },
               {
                 label: "Status",
-                href: "https://stats.uptimerobot.com/GAg8AuBByx",
+                href: "https://stats.uptimerobot.com/LWxk2iJ25F",
               },
             ],
           },
@@ -326,7 +326,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} PCSX2. All Rights Reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PCSX2.`,
       },
       prism: {
         theme: lightCodeTheme,
