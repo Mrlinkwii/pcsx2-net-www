@@ -142,9 +142,6 @@ The Shared Input Profile is built into PCSX2 and is what all games default to un
 
 If you want to use a custom Input Profile for one or more games, then you need to assign it to those games individually. In your games list, right click the game you want to apply a custom Input Profile to, hit Properties, then on the Summary tab, select the appropriate item under Input Profile.
 
-### Can I Use Profiles to Switch Mappings While Playing?
-
-This is not and will not be a supported feature in PCSX2. Use external software to do this.
 
 ## Peripherals & Accessories
 
